@@ -1,0 +1,8 @@
+prompts=50  trajectories=200
+conservation ratio (should be ~1): 0.944  95% CI [0.652, 1.254]
+front-loading index F (all segments):      -0.0766  95% CI [-0.1487, +0.0041]
+front-loading index F (excl. last segment): -0.0011  95% CI [-0.0797, +0.0767]
+share resolved in final segment: 0.180  95% CI [0.093, 0.265]
+shares by relative-position bin: 0.091 0.084 0.063 0.055 0.073 0.121 0.083 0.122 0.132 0.176
+regression_position_only: coef(u_mid) = +5.376e-05  95% CI [-1.413e-05, +1.270e-04]
+regression_with_entropy: coef(u_mid) = +8.781e-05  95% CI [+1.783e-05, +1.720e-04]

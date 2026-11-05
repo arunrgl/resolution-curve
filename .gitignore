@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+# local run outputs (compact results for the paper live in results/)
+runs/
+*.log
+# generated prompt files (see data/README.md)
+data/*.jsonl
+# Colab bundles and downloaded results
+colab/*.zip
+colab/gpuC_r1d15b/

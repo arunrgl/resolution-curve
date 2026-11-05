@@ -1,0 +1,18 @@
+{
+ "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+ "revision": null,
+ "dtype": "torch.bfloat16",
+ "stop_ids": [
+  151643
+ ],
+ "mlx_dtype": "auto",
+ "trajectories": "/content/runs/gpuC_r1d15b/trajectories.jsonl",
+ "out": "/content/runs/gpuC_r1d15b/steering.jsonl",
+ "temperature": 0.6,
+ "stride": 128,
+ "swaps": 4,
+ "window": 64,
+ "seed": 0,
+ "backend": "torch",
+ "torch_dtype": "bfloat16"
+}

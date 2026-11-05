@@ -1,0 +1,14 @@
+# core (estimators, analysis, toy validation, tests)
+numpy>=1.26
+matplotlib>=3.8
+math-verify[antlr4_13_2]>=0.9.0
+pytest>=8
+
+# measurement on a real model, NVIDIA GPU (run with vLLM 0.33.0, torch 2.14.0+cu130):
+# vllm==0.33.0
+# measurement on Apple silicon (run with mlx 0.32.4, mlx-lm 0.32.2):
+# mlx-lm
+# entropy control, steering (torch path) and data preparation:
+# torch
+# transformers
+# datasets

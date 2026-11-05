@@ -1,0 +1,7 @@
+{
+ "generated_tokens": 4494120,
+ "requests": 928,
+ "samples": 9624,
+ "seconds": 319.1,
+ "generated_tok_per_s": 14084.4
+}

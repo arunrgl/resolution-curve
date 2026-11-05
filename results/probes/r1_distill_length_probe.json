@@ -1,0 +1,28 @@
+{
+ "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+ "backend": "vllm",
+ "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+ "args": {
+  "backend": "vllm",
+  "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+  "prompts": "data/math500_pool150_seed20261103.jsonl",
+  "n_prompts": 20,
+  "n": 4,
+  "temperature": 0.6,
+  "top_p": 1.0,
+  "max_new_tokens": 16384,
+  "max_model_len": 17408,
+  "no_chat_template": false,
+  "out": "/content/runs/gpuB_r1_probe.json"
+ },
+ "samples": 80,
+ "finished_frac": 0.9,
+ "accuracy": 0.7625,
+ "N_mean": 4614.6875,
+ "N_p50": 2146.0,
+ "N_p90": 16024.000000000004,
+ "N_max": 16384.0,
+ "EN2_sqrt": 6734.693579703534,
+ "seconds": 112.8,
+ "gen_tok_per_s": 3273.1
+}

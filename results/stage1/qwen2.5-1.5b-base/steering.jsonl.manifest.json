@@ -1,0 +1,18 @@
+{
+ "model": "Qwen/Qwen2.5-1.5B",
+ "revision": null,
+ "dtype": "torch.bfloat16",
+ "stop_ids": [
+  151643
+ ],
+ "mlx_dtype": "auto",
+ "trajectories": "/content/runs/gpuE_q15b_base/trajectories.jsonl",
+ "out": "/content/runs/gpuE_q15b_base/steering.jsonl",
+ "temperature": 0.7,
+ "stride": 16,
+ "swaps": 4,
+ "window": 64,
+ "seed": 0,
+ "backend": "torch",
+ "torch_dtype": "bfloat16"
+}
